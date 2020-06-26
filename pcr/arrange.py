@@ -109,9 +109,6 @@ def get_index_bosses_cycle(dict_bosses:dict, cycle:int, boss_current:str):
 
 # print(get_index_bosses_cycle(boss, 2, 'K2'))
 
-def optimize_sorting(arranged_sorted:list, left_sorted:list, weights_value:list, weights_key:list, box:dict):
-    arranged_sorted = 0
-
 def arrange(players_num:int, bosses:dict, box:dict, boss_current:str, dam_current=None, cycle=None, **options):
     ### Initialization ###
     if dam_current == None:
